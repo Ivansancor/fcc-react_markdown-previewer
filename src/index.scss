@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h2 {
+  @apply mb-2 uppercase font-bold text-green-800 text-xl;
+}
+
+.h3 {
+  @apply mb-4 text-base text-green-900;
+}
+
+.section {
+  @apply bg-green-100 p-4 w-1/2 rounded-md overflow-hidden;
+}
+
+.code-area {
+  @apply font-semibold tracking-wider p-4 bg-green-200 text-black;
+}
+
+textarea {
+  border: none;
+}
+
+code {
+  background-color: white;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+}
